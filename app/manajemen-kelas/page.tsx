@@ -68,7 +68,7 @@ export default function ManajemenKelas() {
                     <div className="max-w-[1200px] mx-auto space-y-8">
                         <section>
                             <h3 className="text-2xl font-bold text-slate-900 tracking-tight">Daftar Rombongan Belajar</h3>
-                            <p className="text-slate-500 mt-1 text-sm">Kelola pembagian kelas dan pantau klasifikasi hambatan siswa[cite: 78].</p>
+                            <p className="text-slate-500 mt-1 text-sm">Kelola pembagian kelas dan pantau klasifikasi hambatan siswa.</p>
                         </section>
 
                         {/* Class Cards Grid */}
@@ -110,18 +110,18 @@ export default function ManajemenKelas() {
                             <div className="flex-1 text-center md:text-left">
                                 <h4 className="font-bold text-slate-800 text-lg">Statistik Rombel Terintegrasi</h4>
                                 <p className="text-slate-500 text-sm mt-1 max-w-xl">
-                                    Setiap rincian kelas ini terhubung langsung dengan <strong>Teacher's Dashboard</strong> untuk sinkronisasi misi PEKA-Game orang tua secara real-time[cite: 113, 114].
+                                    Setiap rincian kelas ini terhubung langsung dengan <strong>Teacher's Dashboard</strong> untuk sinkronisasi misi PEKA-Game orang tua secara real-time.
                                 </p>
                             </div>
                             <div className="flex gap-4">
                                 <div className="text-center">
                                     <div className="text-2xl font-black text-[#4DA6FF]">14</div>
-                                    <div className="text-[10px] font-bold text-slate-400 uppercase">Total Siswa [cite: 30]</div>
+                                    <div className="text-[10px] font-bold text-slate-400 uppercase">Total Siswa </div>
                                 </div>
                                 <div className="w-[1px] h-10 bg-slate-100"></div>
                                 <div className="text-center">
                                     <div className="text-2xl font-black text-[#70B870]">4</div>
-                                    <div className="text-[10px] font-bold text-slate-400 uppercase">Tenaga Pendidik [cite: 75]</div>
+                                    <div className="text-[10px] font-bold text-slate-400 uppercase">Tenaga Pendidik </div>
                                 </div>
                             </div>
                         </div>

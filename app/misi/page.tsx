@@ -110,10 +110,10 @@ export default function PustakaMisi() {
 
                                             <div className="mb-6">
                                                 <span className={`px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-widest ${config.text} ${config.lightColor}`}>
-                                                    {mission.phase} Project [cite: 119]
+                                                    {mission.phase} Project
                                                 </span>
                                                 <h4 className="text-xl font-black text-slate-900 mt-2 tracking-tight group-hover:text-[#4DA6FF] transition-colors">{mission.title}</h4>
-                                                <p className="text-slate-400 text-xs font-bold mt-1 uppercase tracking-tighter">Mascot: {config.mascot}</p>
+                                                <p className="text-slate-400 text-xs font-bold mt-1 uppercase tracking-tighter">Sobat Petualang: {config.mascot}</p>
                                             </div>
 
                                             <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 mb-6">
@@ -144,9 +144,9 @@ export default function PustakaMisi() {
                                 <div className="w-16 h-16 bg-[#70B870] rounded-2xl rotate-6 shadow-lg flex items-center justify-center text-white font-bold">Loka</div>
                             </div>
                             <div className="flex-1 space-y-2">
-                                <h4 className="text-lg font-black text-slate-800">Metode Mission-Based Learning [cite: 106, 109]</h4>
+                                <h4 className="text-lg font-black text-slate-800">Metode Mission-Based Learning</h4>
                                 <p className="text-sm text-slate-500 leading-relaxed max-w-2xl">
-                                    Setiap misi dirancang untuk menjamin kontinuitas habituasi dari sekolah ke rumah. Orang tua bertindak sebagai pendamping utama untuk memastikan setiap target karakter tercapai melalui aplikasi <strong>PEKA-Game</strong>[cite: 110, 113].
+                                    Setiap misi dirancang untuk menjamin kontinuitas habituasi dari sekolah ke rumah. Orang tua bertindak sebagai pendamping utama untuk memastikan setiap target karakter tercapai melalui aplikasi <strong>PEKA-Game</strong>.
                                 </p>
                             </div>
                         </div>

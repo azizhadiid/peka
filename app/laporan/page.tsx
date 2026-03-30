@@ -143,9 +143,9 @@ export default function LaporanPage() {
                             <div className="absolute right-0 bottom-0 w-64 h-64 bg-gradient-to-br from-[#4DA6FF]/20 to-[#70B870]/20 rounded-full blur-3xl"></div>
                             <div className="text-5xl lg:text-6xl flex items-center justify-center bg-white/5 w-24 h-24 rounded-3xl backdrop-blur-sm border border-white/10 shrink-0">📈</div>
                             <div className="space-y-4 relative z-10">
-                                <h4 className="text-xl font-bold italic tracking-tight">"Capaian otonomi anak terbukti melonjak drastis dari 42% menjadi 82% ketika intervensi difasilitasi media terstruktur." [cite: 43]</h4>
+                                <h4 className="text-xl font-bold italic tracking-tight">"Capaian otonomi anak terbukti melonjak drastis dari 42% menjadi 82% ketika intervensi difasilitasi media terstruktur."</h4>
                                 <p className="text-white/40 text-xs font-medium uppercase tracking-widest leading-relaxed">
-                                    Data ini menunjukkan pentingnya sinkronisasi Teacher’s Dashboard dengan PEKA-Game untuk mengukur objektivitas pembentukan self-regulation[cite: 115].
+                                    Data ini menunjukkan pentingnya sinkronisasi Teacher’s Dashboard dengan PEKA-Game untuk mengukur objektivitas pembentukan self-regulation.
                                 </p>
                             </div>
                         </div>

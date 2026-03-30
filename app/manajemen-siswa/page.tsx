@@ -83,7 +83,7 @@ export default function ManajemenSiswa() {
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
                             <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm">
                                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Total Populasi</p>
-                                <h3 className="text-3xl font-black text-slate-900 mt-1">14 <span className="text-sm font-medium text-slate-400 italic">Siswa [cite: 30]</span></h3>
+                                <h3 className="text-3xl font-black text-slate-900 mt-1">14 <span className="text-sm font-medium text-slate-400 italic">Siswa</span></h3>
                             </div>
                             <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm">
                                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Klasifikasi Terbanyak</p>
@@ -144,7 +144,7 @@ export default function ManajemenSiswa() {
                                 </table>
                             </div>
                             <div className="p-6 bg-slate-50/50 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-slate-400 uppercase tracking-widest">
-                                <span>Menampilkan 10 dari 14 Siswa [cite: 30]</span>
+                                <span>Menampilkan 10 dari 14 Siswa </span>
                                 <div className="flex gap-2">
                                     <button className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg opacity-50 cursor-not-allowed">Prev</button>
                                     <button className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg hover:border-[#4DA6FF] hover:text-[#4DA6FF] transition-all">Next</button>

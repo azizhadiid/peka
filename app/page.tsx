@@ -88,7 +88,7 @@ export default function PekaDashboard() {
             {/* Hero Greeting */}
             <section>
               <h3 className="text-2xl lg:text-3xl font-bold text-slate-900 tracking-tight">Selamat pagi, Bu Widya! 👋</h3>
-              <p className="text-slate-500 mt-1 text-sm lg:text-base">Pantau progres kemandirian 14 siswa SLB Mutiara Jambi hari ini[cite: 30, 73].</p>
+              <p className="text-slate-500 mt-1 text-sm lg:text-base">Pantau progres kemandirian 14 siswa SLB Mutiara Jambi hari ini.</p>
             </section>
 
             {/* Grid Stats */}
@@ -181,13 +181,13 @@ export default function PekaDashboard() {
                 </div>
 
                 <p className="mt-6 text-[10px] text-slate-400 italic text-center">
-                  * Data berdasarkan rata-rata poin habituasi harian di sekolah dan rumah [cite: 98, 115]
+                  * Data berdasarkan rata-rata poin habituasi harian di sekolah dan rumah
                 </p>
               </div>
 
               {/* Activity Section */}
               <div className="lg:col-span-4 bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col">
-                <h4 className="font-bold text-slate-800 uppercase text-xs tracking-widest mb-6">Aktivitas Terbaru [cite: 109, 113]</h4>
+                <h4 className="font-bold text-slate-800 uppercase text-xs tracking-widest mb-6">Aktivitas Terbaru </h4>
                 <div className="space-y-6 flex-1">
                   {ACTIVITIES.map((act, i) => (
                     <div key={i} className="flex items-center gap-4 group cursor-pointer">
@@ -199,7 +199,7 @@ export default function PekaDashboard() {
                           {act.student}
                         </p>
                         <p className="text-[11px] text-slate-400 truncate">
-                          Misi: <span className="font-bold">{act.mission}</span> [cite: 106]
+                          Misi: <span className="font-bold">{act.mission}</span>
                         </p>
                       </div>
                       <span className="text-[9px] font-medium text-slate-300 whitespace-nowrap">{act.time}</span>
@@ -216,7 +216,7 @@ export default function PekaDashboard() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-[#4DA6FF] p-8 rounded-3xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
-                  <h4 className="text-xl font-bold mb-2">Tips Hari Ini 💡 [cite: 137]</h4>
+                  <h4 className="text-xl font-bold mb-2">Tips Hari Ini 💡</h4>
                   <p className="text-white/80 text-sm leading-relaxed max-w-sm">
                     Gunakan karakter <strong>Gajah</strong> untuk menanamkan disiplin (Tata) melalui Activity of Daily Living hari ini.
                   </p>
@@ -225,7 +225,7 @@ export default function PekaDashboard() {
               </div>
               <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex items-center justify-between">
                 <div>
-                  <h4 className="font-bold text-slate-800">Dokumen PPI Siswa [cite: 68]</h4>
+                  <h4 className="font-bold text-slate-800">Dokumen PPI Siswa</h4>
                   <p className="text-slate-400 text-xs mt-1">Cetak laporan Program Pembelajaran Individual.</p>
                 </div>
                 <button className="p-4 bg-slate-900 text-white rounded-2xl hover:bg-[#70B870] transition-colors shadow-lg">
